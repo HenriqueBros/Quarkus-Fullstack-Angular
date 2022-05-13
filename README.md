@@ -19,7 +19,7 @@ Esta localizado em: ```/src/main/resources/META-INF/resources/index ```.
 
 ### No Backend:
 
-Estou utilizando o [Quarkus](https://quarkus.io/) framework Java, usando um Json REST Service. Para iniciar o servidor use o comando ``` quarkus dev ```.
+Estou utilizando o [Quarkus](https://quarkus.io/) framework Java, usando o Json REST Service. Para iniciar o servidor use o comando ``` quarkus dev ```.
 
 Esta localizado em: ```/src/main/org.acme.rest.json/Product ```.
 
@@ -47,7 +47,7 @@ networks:
 ```
 
 Para iniciar o container:
-```
+```docker
 docker container start "id_do_container"
 ```
 Com isso você ja poderá usar seu banco de dados. Utilizei o **DBeaver** que é um administrador de banco de dados.
