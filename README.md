@@ -8,20 +8,26 @@ Ubuntu 22.04
 
 ### No Frontend:
 
-Estou utilizando o **Angular**, importei pelo script direto do *HTML*, assim não precisei instalar o angular por **npm ou yarn**.
+Estou utilizando o **Angular**, importei pelo script direto no *HTML*, assim não precisei instalar o angular por **npm ou yarn**.
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script type="text/javascript">
 ```
 
+Esta localizado em: ```/src/main/resources/META-INF/resources/index ```.
+
 ### No Backend:
 
 Estou utilizando o [Quarkus](https://quarkus.io/) framework Java, usando um Json REST Service. Para iniciar o servidor use o comando ``` quarkus dev ```.
 
+Esta localizado em: ```/src/main/org.acme.rest.json/Product ```.
+
+Esta localizado em: ```/src/main/org.acme.rest.json/ProductResource ```.
+
 ### No Banco de Dados:
 
-Estou subindo uma imagem com *docker-compose* do banco **postgres**, criando as tabelas atraves do script SQL.
+Estou subindo uma imagem com *docker-compose* do banco **postgres**, criando as tabelas através do script SQL.
 O arquivo *YML* que fiz é:
 ```yml
 version: '3.8'
