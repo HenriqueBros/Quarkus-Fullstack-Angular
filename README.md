@@ -21,9 +21,17 @@ Esta localizado em: ```/src/main/resources/META-INF/resources/index ```.
 
 Estou utilizando o [Quarkus](https://quarkus.io/) framework Java, usando o Json REST Service. Para iniciar o servidor use o comando ``` quarkus dev ```.
 
+**API dos produtos:**
+
 Esta localizado em: ```/src/main/org.acme.rest.json/Product ```.
 
 Esta localizado em: ```/src/main/org.acme.rest.json/ProductResource ```.
+
+**API das materias primas:**
+
+Esta localizado em: ```/src/main/org.acme.rest.json/RawProduct ```.
+
+Esta localizado em: ```/src/main/org.acme.rest.json/RawProductResource ```.
 
 ### No Banco de Dados:
 

@@ -17,8 +17,8 @@ public class ProductResource {
     private Set<Product> products = Collections.newSetFromMap(Collections.synchronizedMap(new LinkedHashMap<>()));
 
     public ProductResource() {
-        products.add(new Product("Cimento",20, 100));
-        products.add(new Product("Prego",5, 500));
+        products.add(new Product("Cement",20, 100));
+        products.add(new Product("Nail",5, 500));
     }
 
     @GET
