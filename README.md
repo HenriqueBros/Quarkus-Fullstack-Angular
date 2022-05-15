@@ -67,6 +67,7 @@ create table product(
 id INT not null,
 name VARCHAR(30),
 value int,
+quantidade int,
 primary key (id)
 );
 
