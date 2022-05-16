@@ -79,3 +79,15 @@ quantity int,
 primary key (id)
 );
 ```
+
+## OBSERVAÇÃO:
+
+### TENTEI FAZER MAIS NÃO CONSEGUI.
+
+### Integração do backend com o banco de dados:
+
+Tentei utilizar o **Hibernate** para fazer essa comunicação, mas começou dar erro no projeto, não estava compilando mais, optei por não utilizar.
+
+### As regras de negócios:
+
+Não consegui fazer a integração dos materiais que seriam necessários para a confecção do produto. Acho que poderia ser feito usando **Redux**, mais ainda estou aprendendo React.
